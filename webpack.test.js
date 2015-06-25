@@ -1,3 +1,4 @@
+import "babel/polyfill"
 import assign from "object-assign"
 
 if(typeof Object.assign !== "function") {
