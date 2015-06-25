@@ -1,6 +1,6 @@
 {
   "name": "bloody-react-transition-child",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ES7 decorator to simplify ReactTransitionGroup usage",
   "main": "./dist/index.js",
   "scripts": {
@@ -31,6 +31,9 @@
     "url": "https://github.com/bloodyowl/react-transition-child/issues"
   },
   "homepage": "https://github.com/bloodyowl/react-transition-child",
+  "peerDependencies": {
+    "react": "*"
+  },
   "devDependencies": {
     "babel": "^5.6.7",
     "babel-loader": "5.1.4",
