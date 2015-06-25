@@ -31,6 +31,10 @@ class Slide extends Component {
     leaveAnimation: PropTypes.number,
     isRunningEnterAnimation: PropTypes.bool,
     isRunningLeaveAnimation: PropTypes.bool,
+    comesFrom: PropTypes.oneOf([
+      "left",
+      "right",
+    ]),
   }
 
   render() {
@@ -40,6 +44,7 @@ class Slide extends Component {
       isRunningEnterAnimation,
       isRunningLeaveAnimation,
       children,
+      comesFrom,
     } = this.props
     return (
       <div
