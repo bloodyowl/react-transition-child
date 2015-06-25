@@ -7,4 +7,4 @@ launch_in_dev:
   - firefox
 
 launch_in_ci:
-  - phantomjs
+  - firefox
