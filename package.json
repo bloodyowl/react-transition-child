@@ -1,0 +1,46 @@
+{
+  "name": "bloody-react-transition-child",
+  "version": "1.0.0",
+  "description": "ES7 decorator to simplify ReactTransitionGroup usage",
+  "main": "./dist/index.js",
+  "scripts": {
+    "clean": "babel-node --stage 0 ./scripts/clean",
+    "prestart": "npm run clean",
+    "start": "babel-node --stage 0 ./scripts/build",
+    "pretest": "npm run clean",
+    "test": "babel-node --stage 0 ./scripts/test && testem ci",
+    "bump": "npm start && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bloodyowl/react-transition-child"
+  },
+  "keywords": [
+    "react",
+    "transition",
+    "child"
+  ],
+  "files": [
+    "README.md",
+    "LICENSE",
+    "dist/index.js"
+  ],
+  "author": "bloodyowl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bloodyowl/react-transition-child/issues"
+  },
+  "homepage": "https://github.com/bloodyowl/react-transition-child",
+  "devDependencies": {
+    "babel": "^5.6.7",
+    "babel-loader": "5.1.4",
+    "es5-shim": "^4.1.0",
+    "mkdirp": "^0.5.0",
+    "object-assign": "^2.0.0",
+    "react": "^0.13.3",
+    "rimraf": "^2.2.8",
+    "tape-catch": "^1.0.4",
+    "testem": "^0.8.3",
+    "webpack": "^1.9.12"
+  }
+}
