@@ -5,6 +5,12 @@
 transitionChild is a little ES7 decorator that lets you easily wrap react
 components to animate their appearance and disappearance in the DOM.
 
+## install
+
+```console
+$ npm install --save bloody-react-transition-child
+```
+
 ## @transitionChild({ enterDuration = 300, leaveDuration = 300 }) class
 
 wraps a react component. this component will then receive as additional props:
