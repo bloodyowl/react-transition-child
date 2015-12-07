@@ -1,4 +1,4 @@
-import React, {Component} from "react"
+import React, { Component } from "react"
 import requestAnimationFrame from "./requestAnimationFrame"
 
 export default ({enterDuration = 300, leaveDuration = 300} = {}) => {
